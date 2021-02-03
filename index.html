@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Home</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  background-image: url("/images/bg.jpg");
+  background-repeat: repeat;
+  background-size: 100vh;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 5px;
+  padding-right: 20px;
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+
+header div {
+  background: #adb0b0;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+header img {
+  width: 11rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 12rem;
+  line-height: 0.9;
+}
+
+.content-container select {
+  margin-top: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 1rem;
+  font-size: 2rem;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #40b0bf;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  header {
+    width: 80%;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>Follow charliemoss1234</div>
+        <img src="/images/tumblr.png" alt="tumbler logo">
+    </header>
+    <main>
+        <div class="content-container">
+            <h1>Select Your <br>Language</h1>
+            <select name="language" id="language">
+                <option value="english">English</option>
+            </select>
+            
+            <a href="https://incredinvenow.com/5vnqyGVZ"><button>Select</button></a>
+        </div>
+        
+    </main>
+</body>
+</html>
